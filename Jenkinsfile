@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     BRANCH = 'main'
-    REPO = 'https://github.com/TheAshishRepo/tf-azure-demo01.git
+    REPO = 'https://github.com/TheAshishRepo/tf-azure-demo01.git'
 
 
     ARM_ACCESS_KEY = credentials('ARM_ACCESS_KEY')
