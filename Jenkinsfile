@@ -4,7 +4,7 @@ pipeline {
   environment {
     BRANCH = 'main'
     REPO = "https://github.com/TheAshishRepo/tf-azure-demo01.git"
-    ARM_ACCESS_KEY = credentials('ARM_ACCESS_KEY')
+    //ARM_ACCESS_KEY = credentials('ARM_ACCESS_KEY')
     ARM_CLIENT_ID = credentials('ARM_CLIENT_ID')
     ARM_CLIENT_SECRET = credentials('ARM_CLIENT_SECRET')
     ARM_SUBSCRIPTION_ID = credentials('ARM_SUBSCRIPTION_ID')
